@@ -9,7 +9,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.zerofx1:EasyFiles:18efca711c")"
+    implementation("com.github.zerofx1:EasyFiles:18efca711c")
 }
 ```
 
