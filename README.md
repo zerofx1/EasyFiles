@@ -20,8 +20,9 @@ public class Test {
     private static final FileManager FILE_MANAGER = new SimpleFileManager();
 
     public static void main(String[] args) {
-        final Path projectPath = Path.of("C:/projects/EasyFiles");
-        final File myFile = FILE_MANAGER.createFileOrGet(projectPath, "test.yml");
+        final File myFile = FILE_MANAGER.createFileOrGet(
+            Path.of("C:/projects/EasyFiles"), "test.yml"
+        );
 
         System.out.println("File name: " + myFile.getName());
     }
